@@ -1,0 +1,47 @@
+[
+  {
+    "role": "Solution Architect",
+    "company": "Western Union",
+    "location": "Pune",
+    "period": "May 2019 - Present",
+    "client": "",
+    "highlights": [
+      "Lead the E1 MX/AU Wallet team, driving architecture and delivery of remittance and WU Wallet features.",
+      "Launched WU Wallet as a service for multiple countries and enabled wallet selection across 50+ receiver wallet corridors.",
+      "Redesigned a legacy system into a single-page payment app and established an organisation-wide design system.",
+      "Architected a cross-platform application on a mono-repo architecture.",
+      "Integrated payment methods including DLocal, Plaid, Poli, Klarna, Apple Pay, Google Pay and UPI.",
+      "Implemented KYC enrolment by integrating multiple vendor SDKs (IDMission, IDNow, Onfido, Veriff) in line with compliance and governance requirements.",
+      "Drove AI adoption: developed MCP servers for dynamic code generation from UX designs using Figma Code Connect, and applied agentic AI and Gen AI (Copilot) to automate design-to-code workflows.",
+      "Established DevOps quality practices: MR validation pipelines with SonarQube quality gates and automated unit tests (Jest, React Testing Library) running on every MR and build.",
+      "Designed and maintained GitLab CI/CD and Docker build pipelines for automated build, test and release of the cross-platform app."
+    ],
+    "tags": ["React", "React Native", "Mono-repo", "Payments", "KYC", "MCP", "GitLab CI/CD", "Docker"]
+  },
+  {
+    "role": "Associate",
+    "company": "Cognizant",
+    "location": "Pune",
+    "period": "Aug 2018 - Mar 2019",
+    "client": "Discover Bank",
+    "highlights": [
+      "Worked on account opening and tracking for checking and savings accounts, credit cards, loans and investments.",
+      "Drove technology migration and improved application accessibility."
+    ],
+    "tags": ["Banking", "Accessibility", "Migration"]
+  },
+  {
+    "role": "Associate Consultant",
+    "company": "Syntel Ltd",
+    "location": "Pune",
+    "period": "Mar 2015 - Jul 2018",
+    "client": "American Express (AMEX), RSA, FedEx | Mobility R&D team",
+    "highlights": [
+      "Built new mobile and web applications end to end across platforms, including application design and structure.",
+      "Developed a single-page application (SPA) to replace a mainframe system; handled defect fixing and execution.",
+      "Integrated Workflows and SynBots services for bot automation; managed multiple platform upgrades.",
+      "Implemented authorisation on user groups from AD data; worked on Enterprise MDM services, Apple Watch integration and iBeacon."
+    ],
+    "tags": ["iOS", "SPA", "Bots", "MDM", "iBeacon"]
+  }
+]

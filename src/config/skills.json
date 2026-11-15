@@ -1,0 +1,12 @@
+[
+  { "category": "Architecture & Leadership", "items": ["Solution & Enterprise Architecture", "System Design", "Technical Leadership", "Cross-functional Team Management", "Design Systems", "Mono-repo", "Compliance & Governance", "R&D"] },
+  { "category": "Mobile & Web", "items": ["React", "React Native", "Redux Saga", "Angular", "ngRx", "Next.js", "JavaScript", "jQuery", "Ionic", "Cordova", "GraphQL", "Swift", "Objective-C"] },
+  { "category": "Testing & Quality", "items": ["Jest", "React Testing Library", "Enzyme", "Cypress", "Detox", "Unit Testing", "Test Automation", "SonarQube", "Code Coverage"] },
+  { "category": "AI & Productivity", "items": ["Agentic AI", "Generative AI", "MCP Servers", "AI Agents", "Figma Code Connect", "Copilot"] },
+  { "category": "Cloud, DevOps & CI/CD", "items": ["GitLab CI/CD", "Jenkins", "Docker", "Quality Gates", "AWS", "JFrog", "Spinnaker", "Akamai"] },
+  { "category": "Payments & Fintech", "items": ["DLocal", "Plaid", "Poli", "Klarna", "Apple Pay", "Google Pay", "UPI", "Paramount Payments", "Pomelo", "Mambu"] },
+  { "category": "KYC & Identity", "items": ["IDMission", "IDNow", "Onfido", "Veriff"] },
+  { "category": "Analytics & Monitoring", "items": ["Amplitude", "Dynatrace Grail", "Splunk", "Omniture", "Kochava", "mParticle", "Appboy", "Branch.io", "Quantametric"] },
+  { "category": "Specialised", "items": ["iBeacon", "iCloud", "Tesseract", "OpenCV", "Accessibility", "AFNetworking", "OkHttp"] },
+  { "category": "Tools & Practices", "items": ["JIRA", "iObeya", "Xcode", "VS Code", "Visual Studio", "Eclipse"] }
+]

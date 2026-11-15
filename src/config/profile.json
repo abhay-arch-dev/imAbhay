@@ -1,0 +1,30 @@
+{
+  "name": "Abhay Raj",
+  "initials": "AR",
+  "title": "Solution Architect | Senior Software Engineer",
+  "tagline": "Mobile, Web & Payments (BFSI)",
+  "location": "Pune, India 411045",
+  "phone": "+91-8130835760",
+  "email": "abhayraj2106@gmail.com",
+  "linkedin": "https://linkedin.com/in/rajabhayraj",
+  "resumeUrl": "AbhayRaj_Architect_SSE_Resume.pdf",
+  "summary": "Solution Architect and technical leader with 11+ years in mobile, web and payments across Banking, Financial Services and Insurance (BFSI). Leads cross-functional teams to design and deliver scalable, secure, compliant platforms, from architecture and design systems to CI/CD quality gates, and drives AI-assisted engineering (Agentic AI, MCP servers, Figma Code Connect, Gen AI) and R&D.",
+  "stats": [
+    {
+      "value": "11+",
+      "label": "Years Experience"
+    },
+    {
+      "value": "50+",
+      "label": "Wallet Corridors"
+    },
+    {
+      "value": "7+",
+      "label": "Payment Integrations"
+    },
+    {
+      "value": "4",
+      "label": "KYC Vendor SDKs"
+    }
+  ]
+}
