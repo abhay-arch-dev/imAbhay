@@ -26,5 +26,13 @@
       "value": "4",
       "label": "KYC Vendor SDKs"
     }
+  ],
+  "cubeFaces": [
+    "React",
+    "React Native",
+    "Payments",
+    "MCP / AI",
+    "Architecture",
+    "CI/CD"
   ]
 }

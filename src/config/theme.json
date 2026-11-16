@@ -1,8 +1,7 @@
 {
-  "primary": "#8fcaff",
-  "primaryDeep": "#3b86ff",
-  "background": "#05070f",
-  "surface": "rgba(255,255,255,0.03)",
-  "text": "#eef4ff",
-  "muted": "#8b95a7"
+  "primary": "#64ffda",
+  "background": "#0a192f",
+  "surface": "#112240",
+  "text": "#ccd6f6",
+  "muted": "#8892b0"
 }

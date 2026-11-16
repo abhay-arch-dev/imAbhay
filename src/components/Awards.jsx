@@ -1,8 +1,9 @@
 import awards from '../config/awards.json';
 import Section from './Section.jsx';
+
 export default function Awards() {
   return (
-    <Section id="awards">
+    <Section id="awards" title="Awards & Achievements">
       <div className="grid">
         {awards.map((a) => (
           <div key={a.title} className="card">

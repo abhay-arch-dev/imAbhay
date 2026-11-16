@@ -1,12 +1,7 @@
-import labels from '../config/labels.json';
-export default function Section({ id, children }) {
-  const l = labels.sections[id];
+export default function Section({ id, title, children }) {
   return (
-    <section id={id} className="section reveal">
-      <div className="section-head">
-        <span className="mono">{l.code} — {l.kicker}</span>
-        <h2>{l.title}</h2>
-      </div>
+    <section id={id} className="section">
+      <h2 className="section-title">{title}</h2>
       {children}
     </section>
   );

@@ -1,23 +1,17 @@
-import { useMemo, useState } from 'react';
 import skills from '../config/skills.json';
-import labels from '../config/labels.json';
 import Section from './Section.jsx';
-import SkillsGlobe from './SkillsGlobe.jsx';
+
 export default function Skills() {
-  const [cat, setCat] = useState('All');
-  const items = useMemo(
-    () => (cat === 'All' ? skills.flatMap((g) => g.items).slice(0, 60) : skills.find((g) => g.category === cat).items),
-    [cat]
-  );
   return (
-    <Section id="skills">
-      <div className="filters">
-        {['All', ...skills.map((g) => g.category)].map((c) => (
-          <button key={c} className={`filter mono ${c === cat ? 'active' : ''}`} onClick={() => setCat(c)}>{c}</button>
+    <Section id="skills" title="Skills">
+      <div className="grid">
+        {skills.map((g) => (
+          <div key={g.category} className="card">
+            <h4>{g.category}</h4>
+            <div className="chips">{g.items.map((i) => <span key={i} className="chip">{i}</span>)}</div>
+          </div>
         ))}
       </div>
-      <SkillsGlobe items={items} />
-      <p className="mono hint">{labels.sections.skills.hint}</p>
     </Section>
   );
 }
