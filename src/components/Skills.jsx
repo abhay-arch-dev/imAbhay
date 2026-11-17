@@ -3,7 +3,7 @@ import Section from './Section.jsx';
 
 export default function Skills() {
   return (
-    <Section id="skills" title="Skills">
+    <Section id="skills">
       <div className="grid">
         {skills.map((g) => (
           <div key={g.category} className="card">

@@ -1,3 +1,4 @@
+import content from '../config/content.json';
 import { useEffect, useRef } from 'react';
 import profile from '../config/profile.json';
 
@@ -58,14 +59,14 @@ export default function Cube() {
 
   return (
     <div className="cube-wrap">
-      <div ref={sceneRef} className="cube-scene" title="Drag to spin · double-click to reset">
+      <div ref={sceneRef} className="cube-scene" title={content.cube.tooltip}>
         <div ref={cubeRef} className="cube">
           {profile.cubeFaces.slice(0, 6).map((f, i) => (
             <div key={f} className={`face ${sides[i]}`}>{f}</div>
           ))}
         </div>
       </div>
-      <p className="cube-hint">Drag to spin</p>
+      <p className="cube-hint">{content.cube.hint}</p>
     </div>
   );
 }

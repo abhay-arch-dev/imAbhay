@@ -3,7 +3,7 @@ import Section from './Section.jsx';
 
 export default function Awards() {
   return (
-    <Section id="awards" title="Awards & Achievements">
+    <Section id="awards">
       <div className="grid">
         {awards.map((a) => (
           <div key={a.title} className="card">
