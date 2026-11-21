@@ -1,5 +1,6 @@
 import content from '../config/content.json';
 import profile from '../config/profile.json';
+import VisitCount from './VisitCount.jsx';
 
 export default function Contact() {
   return (
@@ -14,7 +15,7 @@ export default function Contact() {
         <a href={profile.linkedin} target="_blank" rel="noreferrer">{content.contact.linkedinLabel}</a>
         <a href={profile.github} target="_blank" rel="noreferrer">{content.contact.githubLabel}</a>
       </div>
-      <footer className="muted">© {new Date().getFullYear()} {profile.name}</footer>
+      <footer className="muted">© {new Date().getFullYear()} {profile.name} <VisitCount /></footer>
     </section>
   );
 }
