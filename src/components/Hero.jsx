@@ -13,6 +13,7 @@ export default function Hero() {
         <div className="hero-actions">
           <a className="btn" href="#contact">{content.hero.contactButton}</a>
           <a className="btn btn-outline" href={profile.linkedin} target="_blank" rel="noreferrer">{content.hero.linkedinButton}</a>
+          <a className="btn btn-outline" href={profile.github} target="_blank" rel="noreferrer">{content.hero.githubButton}</a>
         </div>
       </div>
       <Cube />

@@ -12,6 +12,7 @@ export default function Contact() {
         <a href={`mailto:${profile.email}`}>{profile.email}</a>
         <a href={`tel:${profile.phone}`}>{profile.phone}</a>
         <a href={profile.linkedin} target="_blank" rel="noreferrer">{content.contact.linkedinLabel}</a>
+        <a href={profile.github} target="_blank" rel="noreferrer">{content.contact.githubLabel}</a>
       </div>
       <footer className="muted">© {new Date().getFullYear()} {profile.name}</footer>
     </section>

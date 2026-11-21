@@ -1,0 +1,75 @@
+[
+  {
+    "icon": "🎮",
+    "title": "Motion Games",
+    "repo": "https://github.com/abhay-arch-dev/3d-games",
+    "description": "Living-room games played with your body: an Android phone tracks your movements and the game runs in the TV's browser. Includes Bowling, Paper Toss, Track Runner and Dance.",
+    "tags": [
+      "TypeScript",
+      "Android",
+      "Motion tracking",
+      "Web"
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/abhay-arch-dev/3d-games/HEAD/docs/screenshots/10-tv-games.png",
+      "https://raw.githubusercontent.com/abhay-arch-dev/3d-games/HEAD/docs/screenshots/04-tv-rolling.png",
+      "https://raw.githubusercontent.com/abhay-arch-dev/3d-games/HEAD/docs/screenshots/31-runner.png",
+      "https://raw.githubusercontent.com/abhay-arch-dev/3d-games/HEAD/docs/screenshots/41-dance.png",
+      "https://raw.githubusercontent.com/abhay-arch-dev/3d-games/HEAD/docs/screenshots/08-phone-controller.png"
+    ]
+  },
+  {
+    "icon": "🏠",
+    "title": "Studio Stay 3D",
+    "repo": "https://github.com/abhay-arch-dev/Studio_home",
+    "description": "Interactive 3D studio apartment designer with switchable layouts, furniture finishes, lighting presets, camera transitions and a shopping list, all driven by JSON config.",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Three.js",
+      "Vite"
+    ],
+    "live": "https://abhay-arch-dev.github.io/Studio_home/"
+  },
+  {
+    "icon": "📺",
+    "title": "Android TV Home & Debloat",
+    "repo": "https://github.com/abhay-arch-dev/debloat_android_customised",
+    "description": "Apple TV-style Android TV home screen with a depth clock, voice search, screensaver and arcade games, plus debloat lists for Mi TV and OnePlus TV.",
+    "tags": [
+      "Python",
+      "Android TV",
+      "ADB"
+    ],
+    "screenshots": [
+      "https://raw.githubusercontent.com/abhay-arch-dev/debloat_android_customised/HEAD/docs/banner.png",
+      "https://raw.githubusercontent.com/abhay-arch-dev/debloat_android_customised/HEAD/docs/app-library.jpg",
+      "https://raw.githubusercontent.com/abhay-arch-dev/debloat_android_customised/HEAD/docs/clock-screensaver.png",
+      "https://raw.githubusercontent.com/abhay-arch-dev/debloat_android_customised/HEAD/docs/card.jpg"
+    ]
+  },
+  {
+    "icon": "🧑‍💻",
+    "title": "Resume Website",
+    "repo": "https://github.com/abhay-arch-dev/imAbhay",
+    "description": "This site: a config-driven React + Vite portfolio where all content lives in JSON, with an interactive 3D cube.",
+    "tags": [
+      "React",
+      "Vite",
+      "CSS 3D"
+    ],
+    "live": "https://abhay-arch-dev.github.io/imAbhay/"
+  },
+  {
+    "icon": "🌐",
+    "title": "Fablo",
+    "repo": "https://github.com/abhay-arch-dev/Fablo",
+    "description": "Static marketing website built with TypeScript, JavaScript and CSS.",
+    "tags": [
+      "TypeScript",
+      "CSS",
+      "Static site"
+    ],
+    "live": "https://fablofoods.com/"
+  }
+]

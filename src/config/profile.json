@@ -1,9 +1,9 @@
 {
   "name": "Abhay Raj",
   "initials": "AR",
-  "title": "Solution Architect | Senior Software Engineer",
-  "tagline": "Mobile, Web & Payments (BFSI)",
-  "location": "Pune, India 411045",
+  "title": "Solution Architect | Engineering ",
+  "tagline": "Agentic AI & MCP · Mobile, Web & Payments (BFSI)",
+  "location": "Pune, India",
   "phone": "+91-8130835760",
   "email": "abhayraj2106@gmail.com",
   "linkedin": "https://linkedin.com/in/rajabhayraj",
@@ -34,5 +34,6 @@
     "MCP / AI",
     "Architecture",
     "CI/CD"
-  ]
+  ],
+  "github": "https://github.com/abhay-arch-dev"
 }
