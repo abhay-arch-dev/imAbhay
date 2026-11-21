@@ -6,6 +6,7 @@ import About from './components/About.jsx';
 import Skills from './components/Skills.jsx';
 import Experience from './components/Experience.jsx';
 import Education from './components/Education.jsx';
+import Projects from './components/Projects.jsx';
 import Awards from './components/Awards.jsx';
 import Contact from './components/Contact.jsx';
 import useTilt from './useTilt.js';
@@ -20,7 +21,7 @@ export default function App() {
       <div className="bg-grid" aria-hidden />
       <Navbar />
       <main>
-        <Hero /><About /><Skills /><Experience /><Education /><Awards /><Contact />
+        <Hero /><About /><Skills /><Experience /><Projects /><Education /><Awards /><Contact />
       </main>
     </>
   );

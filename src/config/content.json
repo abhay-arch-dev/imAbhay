@@ -1,20 +1,41 @@
 {
-  "navbar": { "menuLabel": "Menu", "resumeButton": "Resume" },
-  "hero": { "greeting": "Hi, my name is", "contactButton": "Get In Touch", "linkedinButton": "LinkedIn" },
-  "cube": { "hint": "Drag to spin", "tooltip": "Drag to spin · double-click to reset" },
+  "navbar": {
+    "menuLabel": "Menu",
+    "resumeButton": "Resume"
+  },
+  "hero": {
+    "greeting": "Hi, my name is",
+    "contactButton": "Get In Touch",
+    "linkedinButton": "LinkedIn",
+    "githubButton": "GitHub"
+  },
+  "cube": {
+    "hint": "",
+    "tooltip": "Drag to spin · double-click to reset"
+  },
   "sections": {
     "about": "About Me",
     "skills": "Skills",
     "experience": "Experience",
+    "projects": "Personal Projects",
     "education": "Education",
     "awards": "Awards & Achievements"
   },
-  "experience": { "companyPrefix": "@", "clientLabel": "Client:" },
+  "experience": {
+    "companyPrefix": "@",
+    "clientLabel": "Client:"
+  },
   "contact": {
     "kicker": "What's Next?",
     "title": "Get In Touch",
     "text": "Open to Solution Architect and Senior Software Engineering opportunities. My inbox is always open.",
     "button": "Say Hello",
-    "linkedinLabel": "LinkedIn"
+    "linkedinLabel": "LinkedIn",
+    "githubLabel": "GitHub"
+  },
+  "projects": {
+    "linkLabel": "View on GitHub →",
+    "liveLabel": "Live site ↗",
+    "previewLabel": "Live preview"
   }
 }
